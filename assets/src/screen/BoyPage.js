@@ -9,10 +9,22 @@ const gray = '#B7BBBF'
 
 export default class BoyPage extends React.Component {
 
+    async componentDidMount() {
+        await Font.loadAsync({
+            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
+            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
+            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
+            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
+            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
+
+        });
+
+        this.setState({fontLoaded: true});
+    }
 
     state = {
         boy:'168',
-
+        fontLoaded:true,
     };
 
 
@@ -63,8 +75,21 @@ export default class BoyPage extends React.Component {
 
     async handlechange(boy) {
         await AsyncStorage.setItem('boy', this.state.boy);
-        this.props.navigation.navigate('Router')
-
+        // this.props.navigation.navigate('Router')
+        const reqData = JSON.stringify({"username": 'alicanturker123321123' });
+        axios({
+            url: 'http://89.252.178.57/api/user',
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            data: reqData
+        })
+            .then(response  =>{
+                console.log(response)
+            }).catch(e=>{
+                console.log(e)
+        });
 
     }
 
