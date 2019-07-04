@@ -9,22 +9,10 @@ const gray = '#B7BBBF'
 export default class KiloPage extends Component {
 
 
-    async componentDidMount() {
-        await Font.loadAsync({
-            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
-            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
-            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
-            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
-            'Poppins-Thin':require('./assets/fonts/Poppins-Thin.ttf'),
-        });
 
-        this.setState({fontLoaded: true});
-    }
 
     state = {
         kilo:'168',
-        fontLoaded:'false'
     };
 
 
@@ -85,17 +73,16 @@ export default class KiloPage extends Component {
 
             <View style={styles.container}>
                 <View>
-                    {   this.state.fontLoaded ?(
+
                         <Text style={styles.kilo}>
                             Lütfen vücut ağırlığınızı giriniz
                         </Text>
-                    ):null
-                    }
+
                 </View>
 
 
                 <View style={styles.vw1}>
-                    {this.state.fontLoaded ? (
+
                         <TextInput
                             value={this.state.kilo}
                             maxLength={3}
@@ -107,9 +94,8 @@ export default class KiloPage extends Component {
                             marginLeft={20}
                             marginTop={20}
 
-                            style={{ fontFamily: 'Poppins-Medium',}}/>
-                    ):null
-                    }
+                            />
+
 
 
                     <Text style={styles.text1}> kg </Text>
@@ -174,7 +160,6 @@ const styles = StyleSheet.create({
     },
 
     kilo:{
-        fontFamily:'Poppins-Medium',
         fontSize:37,
         marginLeft:20,
         marginTop:20,
@@ -199,7 +184,7 @@ const styles = StyleSheet.create({
         fontSize:52,
         fontWeight: "100",
         marginTop:20,
-        fontFamily:'Poppins-Medium',
+
 
 
     },
@@ -218,7 +203,7 @@ const styles = StyleSheet.create({
 
     buttonText:{
         color:'white', fontSize:18,
-        fontFamily:'Poppins-Medium'
+
 
 
     },

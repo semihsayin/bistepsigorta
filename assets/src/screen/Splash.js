@@ -10,7 +10,7 @@ export default class Splash extends Component {
     async componentWillMount() {
         await AsyncStorage.getItem('boy').then( value => this.setState({boy: value}) );
         if(this.state.cinsiyet != null) {
-            this.props.navigation.navigate('PedometerSensor')
+            this.props.navigation.navigate('Router')
         }
         else {
             this.props.navigation.navigate('FirstPage')
@@ -18,7 +18,7 @@ export default class Splash extends Component {
     }
     render(){
         return (
-            <Text> selaaaaaam </Text>
+            <Text> selaaaaaa </Text>
         )
     }
 }

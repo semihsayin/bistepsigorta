@@ -10,7 +10,6 @@ import SettingPage from "./assets/src/screen/SettingPage";
 import PedometerSensor from "./assets/src/screen/PedometerSensor";
 import Splash from "./assets/src/screen/Splash";
 import {AsyncStorage} from "react-native";
-import {Font} from "expo";
 
 
 const cinsiyetNavigator = createStackNavigator({
@@ -102,25 +101,15 @@ const PedoContainer = createAppContainer(pedoNavigator);
 const RouterContainer = createAppContainer((RouterNavigator));
 
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     cinsiyet: '',
     age: '',
     kilo: '',
     boy:'',
-    secilen: '',
-    fontLoaded: false,
+    secilen: ''
 
   };
-
-  async componentDidMount() {
-    await Font.loadAsync({
-      'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-    });
-
-    this.setState({fontLoaded: true});
-  }
-
 
   async componentWillMount(){
     await AsyncStorage.getItem('cinsiyet').then( value => this.setState({cinsiyet: value}) );

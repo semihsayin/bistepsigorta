@@ -1,7 +1,7 @@
 import Expo from "expo";
 import React,{Component} from "react";
 import { Pedometer } from "expo";
-import {StyleSheet, Text, View, Picker, Dimensions, Image, TouchableOpacity} from "react-native";
+import {StyleSheet, Text, View, Picker, Dimensions, Image, TouchableOpacity,PickerIOS,ScrollView} from "react-native";
 import PercentageCircle from 'react-native-percentage-circle';
 import RNPickerSelect from 'react-native-picker-select';
 import { Ionicons } from '@expo/vector-icons';
@@ -229,7 +229,7 @@ export default class PedometerSensor extends React.Component {
                     <RNPickerSelect
                         placeholder={{}}
                         items={days}
-                        onValueChange={(itemValue, itemPosition, itemIndex) =>
+                        onValueChange={(itemValue, itemPosition,) =>
                             this.setState({dayselect: itemValue, labelselect: itemPosition})
                         }
                         style={pickerSelectStyles}
@@ -237,6 +237,8 @@ export default class PedometerSensor extends React.Component {
                         Icon={() => {
                             return <Ionicons name="md-arrow-dropdown" size={19} color="black" style={{marginTop:15,marginRight:13,fontWeight:600 }} />;
                         }}
+
+
                     />
                 </View>
 
@@ -271,7 +273,7 @@ export default class PedometerSensor extends React.Component {
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#EFDD3A',fontSize:size ,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Adım Sayısı</Text>
+                            <Text style={{color:'#EFDD3A',fontSize:size ,fontWeight:'500',}}>Adım Sayısı</Text>
                         </View>
                     </View>
 
@@ -288,12 +290,12 @@ export default class PedometerSensor extends React.Component {
                             />
                             <View style={styles.group}>
                                 <KmFunc a = {this.state.labelselect} dkm = {this.state.dayKm} ykm = {this.state.yesterdayKm} wkm = {this.state.weekKm} mkm = {this.state.monthKm} nkm ={this.state.dayKm}  />
-                                <Text  style={{fontSize:size,marginTop:8,fontWeight:'400',fontFamily: 'Poppins-Medium' }}>km</Text>
+                                <Text  style={{fontSize:size,marginTop:8,fontWeight:'400',}}>km</Text>
 
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#8CBFF3',fontSize:size ,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Mesafe</Text>
+                            <Text style={{color:'#8CBFF3',fontSize:size ,fontWeight:'500',}}>Mesafe</Text>
                         </View>
                     </View>
                     <View style={styles.step}>
@@ -312,7 +314,7 @@ export default class PedometerSensor extends React.Component {
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#E52323',fontSize:size,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Yakılan Kalori</Text>
+                            <Text style={{color:'#E52323',fontSize:size,fontWeight:'500',}}>Yakılan Kalori</Text>
                         </View>
                     </View>
 
@@ -338,11 +340,10 @@ export default class PedometerSensor extends React.Component {
 
     }
 
-    renderTab = () => {
-        return <View />
-    }
 }
 function Grabasd(props) {
+
+
     if(props.a === 0) {
         return <AnimatedCircularProgress size={Width * 2}
                                          width={15}
@@ -356,13 +357,13 @@ function Grabasd(props) {
 
             {
                 (fill) => (
-                      <View style={{alignItems:'center',justifyContent:'center'}}>
+                    <View style={{alignItems:'center',justifyContent:'center'}}>
                         <Text style={{fontSize:60,}} >
                             {props.g}
                         </Text>
 
-<Text style={{fontSize:20,color:'gray',fontFamily:'Poppins-Medium'}}> /10000</Text>
-                      </View>
+                        <Text style={{fontSize:20,color:'gray',}}> /10000</Text>
+                    </View>
                 )
             }
         </AnimatedCircularProgress>
@@ -386,7 +387,7 @@ function Grabasd(props) {
                             {props.h}
                         </Text>
 
-                        <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /10000</Text>
+                        <Text style={{fontSize:20,color:'gray',}}> /10000</Text>
                     </View>
                 )
             }
@@ -410,65 +411,68 @@ function Grabasd(props) {
                             {props.i}
                         </Text>
 
-                        <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /70000</Text>
+                        <Text style={{fontSize:20,color:'gray',}}> /70000</Text>
                     </View>
                 )
             }
         </AnimatedCircularProgress>
     }
     else if(props.a === 3){
-            return <AnimatedCircularProgress size={Width * 2}
-                                             width={15}
-                                             fill={props.e}
-                                             tintColor="#00e0ff"
-                                             backgroundColor="#3d5875"
-                                             arcSweepAngle={300}
-                                             rotation={210}
-                                             lineCap="round"
-            >
+        return <AnimatedCircularProgress size={Width * 2}
+                                         width={15}
+                                         fill={props.e}
+                                         tintColor="#00e0ff"
+                                         backgroundColor="#3d5875"
+                                         arcSweepAngle={300}
+                                         rotation={210}
+                                         lineCap="round"
+        >
 
-                {
-                    (fill) => (
-                        <View style={{alignItems:'center',justifyContent:'center'}}>
-                            <Text style={{fontSize:60,}} >
-                                {props.j}
-                            </Text>
+            {
+                (fill) => (
+                    <View style={{alignItems:'center',justifyContent:'center'}}>
+                        <Text style={{fontSize:60,}} >
+                            {props.j}
+                        </Text>
 
-                            <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /300000</Text>
-                        </View>
-                    )
-                }
-            </AnimatedCircularProgress>
-        }
+                        <Text style={{fontSize:20,color:'gray',}}> /300000</Text>
+                    </View>
+                )
+            }
+        </AnimatedCircularProgress>
+    }
 
     else if(props.a==null){
-            return <AnimatedCircularProgress size={Width * 2}
-                                             width={15}
-                                             fill={props.b}
-                                             tintColor="#00e0ff"
-                                             backgroundColor="#3d5875"
-                                             arcSweepAngle={300}
-                                             rotation={210}
-                                             lineCap="round"
-            >
+        return <AnimatedCircularProgress size={Width * 2}
+                                         width={15}
+                                         fill={props.b}
+                                         tintColor="#00e0ff"
+                                         backgroundColor="#3d5875"
+                                         arcSweepAngle={300}
+                                         rotation={210}
+                                         lineCap="round"
+        >
 
-                {
-                    (fill) => (
-                        <View style={{alignItems:'center',justifyContent:'center'}}>
-                            <Text style={{fontSize:60,}} >
-                                {props.g}
-                            </Text>
+            {
+                (fill) => (
+                    <View style={{alignItems:'center',justifyContent:'center'}}>
+                        <Text style={{fontSize:60,}} >
+                            {props.g}
+                        </Text>
 
-                            <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /10000</Text>
-                        </View>
-                    )
-                }
-            </AnimatedCircularProgress>
-        }
+                        <Text style={{fontSize:20,color:'gray',}}> /10000</Text>
+                    </View>
+                )
+            }
+        </AnimatedCircularProgress>
+    }
     return null
 
 
 }
+
+
+
 function KmFunc(props) {
     if(props.a === 0){
         return  <Text style={{fontSize:size,marginTop:8,fontWeight:'700', marginLeft:8,}} >  {props.dkm} </Text>
@@ -562,6 +566,7 @@ const styles = StyleSheet.create({
 
     graph:{
         flex:1.5,
+
 
     },
 
@@ -707,8 +712,7 @@ const pickerSelectStyles = StyleSheet.create({
         borderRadius: 35,
         color: 'black',
         paddingRight: 30,
-        shadowColor: 'black',
-        shadowOpacity: .15,// to ensure the text is never behind the icon
+
 
     },
 

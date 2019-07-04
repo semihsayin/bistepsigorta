@@ -118,10 +118,10 @@ const TabNavigator = createBottomTabNavigator({
 
 
 
-const TabContainer = createAppContainer(TabNavigator);
+
 
 export default class Router extends Component {
-
+    static router = TabNavigator.router;
 
 
     static navigationOptions = { //back butonu
@@ -143,7 +143,7 @@ export default class Router extends Component {
         return (
 
 
-            <TabContainer/>
+         <TabNavigator navigation={this.props.navigation}/>
 
 
 

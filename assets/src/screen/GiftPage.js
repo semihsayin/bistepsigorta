@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {View,ScrollView,Image,StyleSheet,TouchableOpacity} from 'react-native';
 import { Container, Header, Content, Card, CardItem, Thumbnail, Button,Text,Icon, Left, Body, Right } from 'native-base';
-
+import axios from 'axios';
 
 
 
@@ -13,10 +13,18 @@ import { Container, Header, Content, Card, CardItem, Thumbnail, Button,Text,Icon
 
 export default class GiftPage extends Component{
 
+
+
+
+
     render(){
 
         return(
+
+
             <View style={styles.gift}>
+
+
 
 
                 <ScrollView >
@@ -25,6 +33,7 @@ export default class GiftPage extends Component{
                     <Card style={{marginTop:50,height:200,width:350,backgroundColor:'red'}}>
 
                         <CardItem cardBody>
+
                             <Image source={{uri: 'https://cdn.webrazzi.com/uploads/2017/07/bisigortaci.jpg'}} style={{height: 200, width: 100, flex: 1,borderRadius:10,}}/>
                         </CardItem>
                         <CardItem>

@@ -9,22 +9,10 @@ const gray = '#B7BBBF'
 
 export default class BoyPage extends React.Component {
 
-    async componentDidMount() {
-        await Font.loadAsync({
-            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
-            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
-            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
-            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
-
-        });
-
-        this.setState({fontLoaded: true});
-    }
 
     state = {
         boy:'168',
-        fontLoaded:true,
+
     };
 
 
@@ -111,7 +99,7 @@ export default class BoyPage extends React.Component {
                             autoFocus={true}
                             marginLeft={20}
                             marginTop={20}
-                            style={{fontFamily:'Poppins-Medium',}}/>
+                            />
 
 
 
@@ -179,7 +167,7 @@ const styles = StyleSheet.create({
     },
 
     boy:{
-        fontFamily:'Poppins-Medium',
+
         fontSize:37,
         marginLeft:20,
         marginTop:20,
@@ -203,7 +191,7 @@ const styles = StyleSheet.create({
         fontSize:52,
         fontWeight: "100",
         marginTop:20,
-        fontFamily:'Poppins-Medium'
+
 
     },
 
@@ -221,7 +209,7 @@ const styles = StyleSheet.create({
 
     buttonText:{
         color:'white', fontSize:18,
-        fontFamily:'Poppins-Medium'
+
 
 
     },

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebeba64-dd71-4b28-a782-42f53e67b175" name="Default Changelist" comment="" />
+    <list default="true" id="9ebeba64-dd71-4b28-a782-42f53e67b175" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/AgePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/AgePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/BoyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/BoyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/FirstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/FirstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/GiftPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/GiftPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/KiloPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/KiloPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/PedometerSensor.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/PedometerSensor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/RankingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/RankingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/SettingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/SettingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/screen/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/Splash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="121" column="3" selection-start-line="115" selection-start-column="1" selection-end-line="121" selection-end-column="3" />
+            <state relative-caret-position="345">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -31,24 +47,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/screen/AgePage.js">
+        <entry file="file://$PROJECT_DIR$/assets/src/screen/Router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="466">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/screen/SettingPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4152">
-              <caret line="282" selection-start-line="282" selection-end-line="282" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#265#313#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/src/screen/PedometerSensor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="431" column="84" lean-forward="true" selection-start-line="431" selection-start-column="84" selection-end-line="431" selection-end-column="84" />
+            <state relative-caret-position="108">
+              <caret line="463" column="27" lean-forward="true" selection-start-line="463" selection-start-column="27" selection-end-line="463" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -67,36 +72,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/screen/FirstPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/screen/Splash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/screen/RankingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6750">
-              <caret line="452" lean-forward="true" selection-start-line="452" selection-end-line="452" />
+            <state relative-caret-position="2685">
+              <caret line="179" column="26" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/src/screen/ProfilePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2535">
+              <caret line="169" column="39" selection-start-line="169" selection-start-column="39" selection-end-line="169" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,10 +108,12 @@
     <findStrings>
       <find>setDate</find>
       <find>daysele</find>
+      <find>Poppins-Medium</find>
+      <find>Poppins</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,19 +127,19 @@
         <option value="$PROJECT_DIR$/assets/src/screen/SecondPage.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/ThirdPage.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/assets/ProfilePage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/GiftPage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/Router.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/assets/Splash.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/Splash.js" />
         <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/FirstPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/GiftPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/Splash.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/AgePage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/KiloPage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/BoyPage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" />
-        <option value="$PROJECT_DIR$/assets/src/screen/RankingPage.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/SettingPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/BoyPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/FirstPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/KiloPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/RankingPage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" />
+        <option value="$PROJECT_DIR$/assets/src/screen/Router.js" />
+        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/assets/src/screen/PedometerSensor.js" />
       </list>
     </option>
@@ -172,12 +167,6 @@
               <item name="bistep-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/bistep-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="bistep-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/bistep-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="fonts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="bistep-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -278,12 +267,17 @@
       <workItem from="1562055091044" duration="1019000" />
       <workItem from="1562057277502" duration="3294000" />
       <workItem from="1562062051636" duration="2043000" />
-      <workItem from="1562146781983" duration="1555000" />
+      <workItem from="1562146781983" duration="6301000" />
+      <workItem from="1562161103621" duration="797000" />
+      <workItem from="1562221842397" duration="1287000" />
+      <workItem from="1562223376225" duration="1276000" />
+      <workItem from="1562224684932" duration="6038000" />
+      <workItem from="1562235043022" duration="1299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211514000" />
+    <option name="totallyTimeSpent" value="226957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" weight="0.32678822" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991166" weight="0.9256662" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4991166" visible="true" weight="0.047685836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,16 +367,6 @@
     <entry file="file://$PROJECT_DIR$/assets/icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/GiftPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../stepsigorta/assets/src/screen/SettingPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -400,51 +384,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/KiloPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="201" column="36" lean-forward="true" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/assets/run.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/BoyPage.js">
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/Splash.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="222" column="34" selection-start-line="222" selection-start-column="34" selection-end-line="222" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/Router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#265#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/ProfilePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="121" column="3" selection-start-line="115" selection-start-column="1" selection-end-line="121" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -453,8 +399,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/AgePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="3660">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/SettingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="598" selection-start-line="598" selection-end-line="598" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/GiftPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -463,18 +429,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/FirstPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/Splash.js">
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/KiloPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="-11">
+          <caret line="103" column="44" lean-forward="true" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/BoyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -483,28 +469,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/RankingPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6750">
-          <caret line="452" lean-forward="true" selection-start-line="452" selection-end-line="452" />
+        <state relative-caret-position="2685">
+          <caret line="179" column="26" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/screen/SettingPage.js">
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/ProfilePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4152">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        <state relative-caret-position="2535">
+          <caret line="169" column="39" selection-start-line="169" selection-start-column="39" selection-end-line="169" selection-end-column="39" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/screen/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#265#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/PedometerSensor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="431" column="84" lean-forward="true" selection-start-line="431" selection-start-column="84" selection-end-line="431" selection-end-column="84" />
+        <state relative-caret-position="108">
+          <caret line="463" column="27" lean-forward="true" selection-start-line="463" selection-start-column="27" selection-end-line="463" selection-end-column="27" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

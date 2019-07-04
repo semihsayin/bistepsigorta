@@ -418,7 +418,7 @@ export default class RankingPage extends Component {
                 <View style={{flex:0.160}}/>
 
                 <View style={styles.OurRank}>
-                    <Text style={{fontSize:Height*0.03,fontWeight:'700',fontFamily: 'Poppins-Medium'}}>Sizin Siraniz</Text>
+                    <Text style={{fontSize:Height*0.03,fontWeight:'700',}}>Sizin Siraniz</Text>
 
                     <View style={styles.rank}>
                         <Text style={styles.rankTextStyle}>2000</Text>
@@ -501,7 +501,7 @@ const styles = StyleSheet.create({
         fontSize: PuanFont,
         fontWeight: 'bold',
         color: '#f2f2f2',
-        fontFamily: 'Poppins-Medium'
+
 
     },
 
@@ -610,7 +610,7 @@ const styles = StyleSheet.create({
         fontWeight:'500',
         fontSize:Height *0.0275,
         color:'#6C767A',
-        fontFamily:'Poppins-Medium'
+
 
 
 
@@ -620,7 +620,7 @@ const styles = StyleSheet.create({
         fontSize:Height *0.0275,
 
         color:'#7DD992',
-        fontFamily: 'Poppins-Medium'
+
     } ,
     OurRank:{
         flex:0.3,
