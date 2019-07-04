@@ -7,11 +7,7 @@ import {Font} from "expo";
 
 
 export default class AgePage extends Component{
-    async componentDidMount() {
 
-
-        this.setState({fontLoaded: true});
-    }
 
 
 
@@ -44,10 +40,9 @@ export default class AgePage extends Component{
         return(
             <View style={styles.container}>
                 <View style = {styles.vw1}>
-                    {    this.state.fontLoaded ?(
+
                         <Text style={styles.firsttext}>Lütfen doğum yılınızı seçiniz</Text>
-                    ):null
-                    }
+
                 </View>
 
                 <View style={styles.empty}/>
@@ -55,7 +50,7 @@ export default class AgePage extends Component{
 
                 <View style = {styles.input}>
 
-                    {   this.state.fontLoaded ?(
+
                         <TextInput value={this.state.age}
                                    maxLength={4}
                                    fontSize={52}
@@ -64,9 +59,9 @@ export default class AgePage extends Component{
                                    marginLeft={20}
 
 
+
                         />
-                    ):null
-                    }
+
                 </View>
 
                 <View style={styles.empty}/>
@@ -81,10 +76,9 @@ export default class AgePage extends Component{
                         }}
                     >
 
-                        {     this.state.fontLoaded ? (
+
                             <Text style={styles.buttonText}> Devam </Text>
-                        ):null
-                        }
+
                     </TouchableOpacity>
 
                 </View>
@@ -215,6 +209,7 @@ const styles = StyleSheet.create({
 
 
     firsttext:{
+
         fontSize:37,
         marginLeft:20,
         marginTop:20,
@@ -247,6 +242,7 @@ const styles = StyleSheet.create({
     },
 
     buttonText:{
+
         color:'white',
         fontSize:18,
 

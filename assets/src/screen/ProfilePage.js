@@ -30,7 +30,7 @@ export default class ProfilePage extends Component{
 
                         <View style={{flex:0.12}}/>
 
-                        <Text style={{fontSize:Height*0.028,fontWeight:'700'}}>Bi Adim</Text>
+                        <Text style={{fontSize:Height*0.028,fontWeight:'700',}}>Bi Adim</Text>
 
                         <View style={{flex:0.82}}/>
 
@@ -104,7 +104,7 @@ export default class ProfilePage extends Component{
                                     imageStyle={{ borderRadius: 7 }}
                                 >
 
-                                    <Text style={{color:'white',fontSize:Height*0.028,fontWeight:'600'}}>Follow</Text>
+                                    <Text style={{color:'white',fontSize:Height*0.028,fontWeight:'600',}}>Follow</Text>
                                 </ImageBackground>
 
 
@@ -134,13 +134,13 @@ export default class ProfilePage extends Component{
 
                             <View style={styles.dataText}>
                                 <View style={{flexDirection:'row'}}>
-                                    <Text style={{fontWeight:'700',fontSize:Height*0.023}}>6125555</Text>
+                                    <Text style={{fontWeight:'700',fontSize:Height*0.023,}}>6125555</Text>
 
                                 </View>
 
 
 
-                                <Text style={{marginLeft:4,marginTop:7,fontSize:Height*0.0168,color:'#bdbdbd'}}>Adim Sayisi</Text>
+                                <Text style={{marginLeft:4,marginTop:7,fontSize:Height*0.0168,color:'#bdbdbd',}}>Adim Sayisi</Text>
                             </View>
 
                         </View>
@@ -150,8 +150,8 @@ export default class ProfilePage extends Component{
 
                             <View style={styles.dataText}>
                                 <View style={{flexDirection:'row'}}>
-                                    <Text style={{fontWeight:'700',fontSize:Height*0.023}}>6500</Text>
-                                    <Text style={{fontSize:Height*0.0168,marginTop:Height*0.0056,marginLeft:Height*0.0056,fontWeight:'500'}}>Km</Text>
+                                    <Text style={{fontWeight:'700',fontSize:Height*0.023,}}>6500</Text>
+                                    <Text style={{fontSize:Height*0.0168,marginTop:Height*0.0056,marginLeft:Height*0.0056,fontWeight:'500',}}>Km</Text>
                                 </View>
 
 
@@ -165,12 +165,12 @@ export default class ProfilePage extends Component{
 
                             <View style={styles.dataTextLast}>
                                 <View style={{flexDirection:'row'}}>
-                                    <Text style={{fontWeight:'700',fontSize:Height*0.023}}>3400</Text>
-                                    <Text style={{fontSize:Height*0.0168,marginLeft:Height*0.0042,marginTop:Height*0.0056,fontWeight:'500'}}>Cal</Text>
+                                    <Text style={{fontWeight:'700',fontSize:Height*0.023,}}>3400</Text>
+                                    <Text style={{fontSize:Height*0.0168,marginLeft:Height*0.0042,marginTop:Height*0.0056,fontWeight:'500',}}>Cal</Text>
                                 </View>
 
 
-                                <Text style={{marginTop:7,fontSize:Height*0.0168,color:'#bdbdbd'}}>Kalori</Text>
+                                <Text style={{marginTop:6,fontSize:Height*0.0168,color:'#bdbdbd'}}>Kalori</Text>
 
                             </View>
 
@@ -185,10 +185,10 @@ export default class ProfilePage extends Component{
                         <View style={{flex:0.3}}/>
 
                         <View style={{flexDirection:'row'}}>
-                            <Text style={{marginTop:10,marginLeft:20,fontWeight:'500',fontSize:Height*0.0252}}>Kazanilan Basarilar</Text>
+                            <Text style={{marginTop:10,marginLeft:20,fontWeight:'500',fontSize:Height*0.0252,}}>Kazanilan Basarilar</Text>
                             <View style={{flex:0.9}}/>
 
-                            <Text style={{marginTop:10,color:'#667ad5'}}>daha fazla</Text>
+                            <Text style={{marginTop:10,color:'#667ad5',}}>daha fazla</Text>
 
                             <Ionicons name="md-arrow-dropright" size={23} color="#667ad5" style={{marginLeft:5,fontWeight:600,marginTop:8 }} />
 
@@ -307,7 +307,7 @@ export default class ProfilePage extends Component{
                     <View style={{flex:0.02,backgroundColor:'#f7f7fe',}}></View>
 
                     <View style={styles.challange}>
-                        <Text style={{marginTop:Height*0.014,marginLeft:Height*0.028,fontSize:Height*0.025,fontWeight:'500'}}>1-1 Challange</Text>
+                        <Text style={{marginTop:Height*0.014,marginLeft:Height*0.028,fontSize:Height*0.025,fontWeight:'500',}}>1-1 Challange</Text>
 
 
                         <View style={{flexDirection:'row',marginTop:15,}}>

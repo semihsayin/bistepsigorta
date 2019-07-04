@@ -9,14 +9,10 @@ const gray = '#B7BBBF'
 export default class KiloPage extends Component {
 
 
-    async componentDidMount() {
 
-        this.setState({fontLoaded: true});
-    }
 
     state = {
         kilo:'168',
-        fontLoaded:'false'
     };
 
 
@@ -77,17 +73,16 @@ export default class KiloPage extends Component {
 
             <View style={styles.container}>
                 <View>
-                    {   this.state.fontLoaded ?(
+
                         <Text style={styles.kilo}>
                             Lütfen vücut ağırlığınızı giriniz
                         </Text>
-                    ):null
-                    }
+
                 </View>
 
 
                 <View style={styles.vw1}>
-                    {this.state.fontLoaded ? (
+
                         <TextInput
                             value={this.state.kilo}
                             maxLength={3}
@@ -98,9 +93,9 @@ export default class KiloPage extends Component {
                             autoFocus={true}
                             marginLeft={20}
                             marginTop={20}
-/>
-                    ):null
-                    }
+
+                            />
+
 
 
                     <Text style={styles.text1}> kg </Text>
@@ -191,6 +186,7 @@ const styles = StyleSheet.create({
         marginTop:20,
 
 
+
     },
 
     button: {
@@ -207,6 +203,8 @@ const styles = StyleSheet.create({
 
     buttonText:{
         color:'white', fontSize:18,
+
+
 
     },
 

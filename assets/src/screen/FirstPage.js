@@ -1,19 +1,8 @@
 import React, { Component } from 'react';
 import {Text, TouchableOpacity,  View, StyleSheet,Image,ScrollView,AsyncStorage} from 'react-native';
 import Dialog, {DialogTitle, DialogContent, DialogFooter, DialogButton,} from 'react-native-popup-dialog';
-import {Font} from "expo";
 
-
-export default class FirstPage extends React.Component {
-
-
-
-
-    async componentDidMount() {
-
-        this.setState({fontLoaded: true});
-    }
-
+export default class FirstPage extends Component {
 
 
     static navigationOptions = { //back butonu
@@ -30,7 +19,6 @@ export default class FirstPage extends React.Component {
     state = {
         cinsiyet: '',
         defaultAnimationDialog: false,
-        fontLoaded: false,
 
     };
 
@@ -75,16 +63,9 @@ export default class FirstPage extends React.Component {
 
         return (
             <View style={styles.container}>
-
-
-                <View style={styles.vw1}>{
-                    this.state.fontLoaded ? (
+                <View style={styles.vw1}>
                     <Text style={styles.textc}>Cinsiyetiniz?</Text>
-                    ):null
-                }
                 </View>
-
-
 
                 <View style={styles.vw2}>
                     <TouchableOpacity
@@ -102,11 +83,7 @@ export default class FirstPage extends React.Component {
                         />
 
                         <View style={{flex:0.4}}/>
-                        {
-                            this.state.fontLoaded ? (
-                                <Text style={styles.loginText}>Kadın</Text>
-                            ) : null
-                        }
+                        <Text style={styles.loginText}>Kadin</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -127,13 +104,13 @@ export default class FirstPage extends React.Component {
 
                         />
                         <View style={{flex:0.4}}/>
-                        { this.state.fontLoaded ? (
-                            <Text style={styles.loginText}>Erkek</Text>
-                        ):null
-                        }
+
+                        <Text style={styles.loginText}>Erkek</Text>
                     </TouchableOpacity>
 
                 </View>
+
+
 
 
 
@@ -191,7 +168,7 @@ const styles = StyleSheet.create({
     textc: {
         color: 'black',
         fontSize: 40,
-        alignItems: 'center',
+        alignItems: 'center'
     },
 
     imagestyle: {

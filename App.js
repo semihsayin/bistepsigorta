@@ -101,22 +101,15 @@ const PedoContainer = createAppContainer(pedoNavigator);
 const RouterContainer = createAppContainer((RouterNavigator));
 
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     cinsiyet: '',
     age: '',
     kilo: '',
     boy:'',
-    secilen: '',
-    fontLoaded: false,
+    secilen: ''
 
   };
-
-  async componentDidMount() {
-
-    this.setState({fontLoaded: true});
-  }
-
 
   async componentWillMount(){
     await AsyncStorage.getItem('cinsiyet').then( value => this.setState({cinsiyet: value}) );
