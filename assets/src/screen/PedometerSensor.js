@@ -221,8 +221,7 @@ export default class PedometerSensor extends React.Component {
 
 
             <View style={styles.container}>
-
-                <View style={{flex:0.4}}/>
+             <View style={{flex:0.}}/>
 
                 <View  style={styles.picker}>
 
@@ -243,7 +242,6 @@ export default class PedometerSensor extends React.Component {
                 </View>
 
 
-                <View style={styles.empty}/>
 
 
 
@@ -322,6 +320,8 @@ export default class PedometerSensor extends React.Component {
                 </View>
 
 
+
+
                 <View style={styles.empty}/>
                 <View style={styles.empty}/>
 
@@ -353,6 +353,7 @@ function Grabasd(props) {
                                          arcSweepAngle={300}
                                          rotation={210}
                                          lineCap="round"
+
         >
 
             {
@@ -559,13 +560,13 @@ const styles = StyleSheet.create({
     },
 
     picker:{
-        flex:0.25,
+        flex:0.5,
 
 
     },
 
     graph:{
-        flex:1.5,
+        flex:1.25,
 
 
     },

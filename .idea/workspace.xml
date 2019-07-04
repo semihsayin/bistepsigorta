@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebeba64-dd71-4b28-a782-42f53e67b175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/AgePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/AgePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/BoyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/BoyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/FirstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/FirstPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/GiftPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/GiftPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/KiloPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/KiloPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/screen/PedometerSensor.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/PedometerSensor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/RankingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/RankingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/SettingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/SettingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/screen/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/screen/Splash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +24,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="-1030">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -62,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/src/screen/PedometerSensor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="463" column="27" lean-forward="true" selection-start-line="463" selection-start-column="27" selection-end-line="463" selection-end-column="27" />
+            <state relative-caret-position="373">
+              <caret line="456" column="13" lean-forward="true" selection-start-line="456" selection-start-column="13" selection-end-line="456" selection-end-column="13" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -272,12 +268,20 @@
       <workItem from="1562221842397" duration="1287000" />
       <workItem from="1562223376225" duration="1276000" />
       <workItem from="1562224684932" duration="6038000" />
-      <workItem from="1562235043022" duration="1299000" />
+      <workItem from="1562235043022" duration="6098000" />
     </task>
+    <task id="LOCAL-00001" summary="v2">
+      <created>1562242663668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562242663668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226957000" />
+    <option name="totallyTimeSpent" value="231756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +296,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.14799154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.14799154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50070524" side_tool="true" weight="0.17514595" />
@@ -307,7 +311,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" weight="0.32678822" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.32777777" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4991166" visible="true" weight="0.047685836" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991166" visible="true" weight="0.047685836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,6 +321,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/react-native-dropdown/lib/updatePosition.js" />
     <entry file="file://$PROJECT_DIR$/src/screen/FirstPage.js" />
@@ -325,13 +333,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fonts/Fonts.js" />
     <entry file="file://$PROJECT_DIR$/.expo/settings.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -457,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/RankingPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2685">
@@ -498,10 +489,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/screen/PedometerSensor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="463" column="27" lean-forward="true" selection-start-line="463" selection-start-column="27" selection-end-line="463" selection-end-column="27" />
+        <state relative-caret-position="373">
+          <caret line="456" column="13" lean-forward="true" selection-start-line="456" selection-start-column="13" selection-end-line="456" selection-end-column="13" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

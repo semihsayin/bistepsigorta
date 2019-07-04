@@ -21,7 +21,7 @@ const cinsiyetNavigator = createStackNavigator({
   Router:Router,
   Splash:Splash,
 
-},{initialRouteName:"FirstPage"
+},{initialRouteName:"Router"
 
 
 });
