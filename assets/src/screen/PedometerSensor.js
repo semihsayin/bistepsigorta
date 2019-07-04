@@ -271,7 +271,7 @@ export default class PedometerSensor extends React.Component {
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#EFDD3A',fontSize:size ,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Adım Sayısı</Text>
+                            <Text style={{color:'#EFDD3A',fontSize:size ,fontWeight:'500'}}>Adım Sayısı</Text>
                         </View>
                     </View>
 
@@ -288,12 +288,12 @@ export default class PedometerSensor extends React.Component {
                             />
                             <View style={styles.group}>
                                 <KmFunc a = {this.state.labelselect} dkm = {this.state.dayKm} ykm = {this.state.yesterdayKm} wkm = {this.state.weekKm} mkm = {this.state.monthKm} nkm ={this.state.dayKm}  />
-                                <Text  style={{fontSize:size,marginTop:8,fontWeight:'400',fontFamily: 'Poppins-Medium' }}>km</Text>
+                                <Text  style={{fontSize:size,marginTop:8,fontWeight:'400' }}>km</Text>
 
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#8CBFF3',fontSize:size ,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Mesafe</Text>
+                            <Text style={{color:'#8CBFF3',fontSize:size ,fontWeight:'500'}}>Mesafe</Text>
                         </View>
                     </View>
                     <View style={styles.step}>
@@ -312,7 +312,7 @@ export default class PedometerSensor extends React.Component {
                             </View>
                         </View>
                         <View style={styles.textStep}>
-                            <Text style={{color:'#E52323',fontSize:size,fontWeight:'500',fontFamily: 'Poppins-Medium'}}>Yakılan Kalori</Text>
+                            <Text style={{color:'#E52323',fontSize:size,fontWeight:'500'}}>Yakılan Kalori</Text>
                         </View>
                     </View>
 
@@ -361,7 +361,7 @@ function Grabasd(props) {
                             {props.g}
                         </Text>
 
-<Text style={{fontSize:20,color:'gray',fontFamily:'Poppins-Medium'}}> /10000</Text>
+<Text style={{fontSize:20,color:'gray'}}> /10000</Text>
                       </View>
                 )
             }
@@ -386,7 +386,7 @@ function Grabasd(props) {
                             {props.h}
                         </Text>
 
-                        <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /10000</Text>
+                        <Text style={{fontSize:20,color:'gray'}}> /10000</Text>
                     </View>
                 )
             }
@@ -410,7 +410,7 @@ function Grabasd(props) {
                             {props.i}
                         </Text>
 
-                        <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /70000</Text>
+                        <Text style={{fontSize:20,color:'gray'}}> /70000</Text>
                     </View>
                 )
             }
@@ -434,7 +434,7 @@ function Grabasd(props) {
                                 {props.j}
                             </Text>
 
-                            <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /300000</Text>
+                            <Text style={{fontSize:20,color:'gray'}}> /300000</Text>
                         </View>
                     )
                 }
@@ -459,7 +459,7 @@ function Grabasd(props) {
                                 {props.g}
                             </Text>
 
-                            <Text style={{fontSize:20,color:'gray',fontFamily: 'Poppins-Medium'}}> /10000</Text>
+                            <Text style={{fontSize:20,color:'gray'}}> /10000</Text>
                         </View>
                     )
                 }

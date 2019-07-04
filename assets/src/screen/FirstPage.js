@@ -10,13 +10,6 @@ export default class FirstPage extends React.Component {
 
 
     async componentDidMount() {
-        await Font.loadAsync({
-            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
-            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
-            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
-            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
-        });
 
         this.setState({fontLoaded: true});
     }
@@ -193,14 +186,12 @@ const styles = StyleSheet.create({
         color: 'black',
         textAlign: 'center',
         fontSize: 25,
-       fontFamily:'Poppins-Medium'
     },
 
     textc: {
         color: 'black',
         fontSize: 40,
         alignItems: 'center',
-        fontFamily:'Poppins-Medium'
     },
 
     imagestyle: {

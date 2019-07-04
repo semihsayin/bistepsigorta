@@ -107,7 +107,7 @@ const TabNavigator = createBottomTabNavigator({
             showLabel:false
 
         },
-        initialRouteName:'Home',
+        initialRouteName:'Gift',
 
 
 

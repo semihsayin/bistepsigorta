@@ -1,6 +1,7 @@
 import React,{Component} from 'React';
 import {Text, View, StyleSheet, TextInput, TouchableOpacity, KeyboardAvoidingView,AsyncStorage} from 'react-native';
 import {Font} from "expo";
+import axios from 'axios';
 
 const blue = '#1273DE'
 const gray = '#B7BBBF'
@@ -10,15 +11,6 @@ const gray = '#B7BBBF'
 export default class BoyPage extends React.Component {
 
     async componentDidMount() {
-        await Font.loadAsync({
-            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
-            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
-            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
-            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
-
-        });
-
         this.setState({fontLoaded: true});
     }
 
@@ -75,8 +67,21 @@ export default class BoyPage extends React.Component {
 
     async handlechange(boy) {
         await AsyncStorage.setItem('boy', this.state.boy);
-        this.props.navigation.navigate('Router')
-
+        // this.props.navigation.navigate('Router')
+        const reqData = JSON.stringify({"username": 'alicanturker123321123' });
+        axios({
+            url: 'http://89.252.178.57/api/user',
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            data: reqData
+        })
+            .then(response  =>{
+                console.log(response)
+            }).catch(e=>{
+                console.log(e)
+        });
 
     }
 
@@ -110,8 +115,7 @@ export default class BoyPage extends React.Component {
                             keyboardType='number-pad'
                             autoFocus={true}
                             marginLeft={20}
-                            marginTop={20}
-                            style={{fontFamily:'Poppins-Medium',}}/>
+                            marginTop={20}/>
 
 
 
@@ -179,7 +183,6 @@ const styles = StyleSheet.create({
     },
 
     boy:{
-        fontFamily:'Poppins-Medium',
         fontSize:37,
         marginLeft:20,
         marginTop:20,
@@ -202,8 +205,7 @@ const styles = StyleSheet.create({
     text1:{
         fontSize:52,
         fontWeight: "100",
-        marginTop:20,
-        fontFamily:'Poppins-Medium'
+        marginTop:20
 
     },
 
@@ -220,8 +222,7 @@ const styles = StyleSheet.create({
     },
 
     buttonText:{
-        color:'white', fontSize:18,
-        fontFamily:'Poppins-Medium'
+        color:'white', fontSize:18
 
 
     },

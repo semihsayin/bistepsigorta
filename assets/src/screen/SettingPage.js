@@ -183,7 +183,7 @@ export default class SettingPage extends  Component{
                     />
 
 
-                    <Text style={{fontSize:Height*0.028,fontWeight:'500',color:'#CCCCCC',marginTop:10,fontFamily: 'Poppins-Medium'}}>Profil Fotografini Degistir</Text>
+                    <Text style={{fontSize:Height*0.028,fontWeight:'500',color:'#CCCCCC',marginTop:10}}>Profil Fotografini Degistir</Text>
 
                 </View>
                 <View style={{flex:0.09}}/>
@@ -596,7 +596,6 @@ const styles = StyleSheet.create({
         borderRadius:5,
         fontWeight:'500',
         borderColor:'#9B9B9B',
-        fontFamily: 'Poppins-Medium'
 
 
 

@@ -10,14 +10,6 @@ export default class KiloPage extends Component {
 
 
     async componentDidMount() {
-        await Font.loadAsync({
-            'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-            'Poppins-BlackItalic': require('./assets/fonts/Poppins-BlackItalic.ttf'),
-            'Poppins-Bold':require('./assets/fonts/Poppins-Bold.ttf'),
-            'Poppins-Medium':require('./assets/fonts/Poppins-Medium.ttf'),
-            'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
-            'Poppins-Thin':require('./assets/fonts/Poppins-Thin.ttf'),
-        });
 
         this.setState({fontLoaded: true});
     }
@@ -106,8 +98,7 @@ export default class KiloPage extends Component {
                             autoFocus={true}
                             marginLeft={20}
                             marginTop={20}
-
-                            style={{ fontFamily: 'Poppins-Medium',}}/>
+/>
                     ):null
                     }
 
@@ -174,7 +165,6 @@ const styles = StyleSheet.create({
     },
 
     kilo:{
-        fontFamily:'Poppins-Medium',
         fontSize:37,
         marginLeft:20,
         marginTop:20,
@@ -199,7 +189,6 @@ const styles = StyleSheet.create({
         fontSize:52,
         fontWeight: "100",
         marginTop:20,
-        fontFamily:'Poppins-Medium',
 
 
     },
@@ -218,8 +207,6 @@ const styles = StyleSheet.create({
 
     buttonText:{
         color:'white', fontSize:18,
-        fontFamily:'Poppins-Medium'
-
 
     },
 

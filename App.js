@@ -10,7 +10,6 @@ import SettingPage from "./assets/src/screen/SettingPage";
 import PedometerSensor from "./assets/src/screen/PedometerSensor";
 import Splash from "./assets/src/screen/Splash";
 import {AsyncStorage} from "react-native";
-import {Font} from "expo";
 
 
 const cinsiyetNavigator = createStackNavigator({
@@ -114,9 +113,6 @@ export default class App extends React.Component {
   };
 
   async componentDidMount() {
-    await Font.loadAsync({
-      'Poppins-Black': require('./assets/fonts/Poppins-Black.ttf'),
-    });
 
     this.setState({fontLoaded: true});
   }
